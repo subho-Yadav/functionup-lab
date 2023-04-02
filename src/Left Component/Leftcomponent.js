@@ -6,7 +6,7 @@ export default function Leftcomponent() {
         <div className={left.left_container}>
             <div className={left.submission}>
                 <h3>Daily Assignment Submission</h3>
-                <h5>Number of substrings divisible by 6</h5>
+                <h4>Number of substrings divisible by 6</h4>
                 <p>Deadline is : 29 Mar,11:59 PM</p>
                 <p>videoLinkAssignment</p>
                 <input type="text"  placeholder='Enter submission link here'/>
@@ -28,8 +28,10 @@ export default function Leftcomponent() {
                 <hr/>
             </div>
             <div className={left.advertize}>
-
+                <h3>More students Like You</h3>
+                <p>If you feel FunctionUp is helping you in shaping your career, we want our new admissions to have the same motivation as yours.</p>
             </div>
+            <button>Share Now</button>
         </div>
   )
 }

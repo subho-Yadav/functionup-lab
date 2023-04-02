@@ -1,0 +1,31 @@
+.left_container{
+    width: 25% ;
+    margin: 1em;
+    margin-left: 2em;
+    padding: 1em;
+    border: 1px solid red;
+}
+.submission{
+    margin: 1em;
+    box-shadow: 0 0 10px grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.submission h3{
+    padding-bottom: 2em;
+}
+.submission input{
+    padding: 7px;
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+    outline: none;
+}
+.submission button{
+    padding: 10px 15px;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+}
